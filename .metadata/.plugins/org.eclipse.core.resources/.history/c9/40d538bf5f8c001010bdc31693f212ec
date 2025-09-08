@@ -1,0 +1,37 @@
+package classes;
+/*배열 
+ * -여러 개의 연속적으로 요소값을 저장하는 자료구조이다 
+ * 0번 위치에서 시작함 
+ * 자료형[]배열이름 = new자료형[배열의 크기]
+ * int [] num=new int[4]
+ * <변수-num1,num2,,num3,num4>
+ * <num[0],num[1].,num[2,,num[3,,num[4
+ * */
+
+public class bankaccountTest2 {
+
+	public static void main(String[] args) {
+		// 은행 계정을 저장할 배열 생성
+		bankAccount[] acciunts = new bankAccount[2];
+		//은행 계좌 인스턴스 생성
+		bankAccount account1 = new bankAccount();
+		bankAccount account2 = new bankAccount();
+		// 계좌정보를 입력
+		account1.setAno("11-22-334");
+	
+		account1setowner("김성진");
+		account1setBalanc("5555");
+		account2.setAno("913-22-55");
+		account2.setowner("제임스");
+		account2setBalanc("556655");
+		//계좌정보룰쳑
+		for(int i = 0; 1<accounts.length;i++) {
+			System.out.println("계좌번호 "+accounts[i].getAno());
+			System.out.println("예금주 "+accounts[i].getowner());
+			System.out.println("예금주 "+accounts[i].getBalance())
+		}
+		
+
+	}
+
+}

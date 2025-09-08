@@ -1,0 +1,14 @@
+package classes;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		//클랴수 인스턴스 셍성자
+		Student st1 = new Stdudent();
+		st1.studentId=1001;
+		//출력
+		System.out.println("학번:"+st1.studentId);
+		
+	}
+
+}
