@@ -19,10 +19,10 @@ private String owner;//예금주
 	public String getOwner() {
 		return owner;
 	}
-	public void setBalance(String balance) {
+	public void setBalance(int balance) {
 		this.balance=balance;
 	}
-	public String getBalance() {
+	public int getBalance() {
 		return balance;
 	}
 	

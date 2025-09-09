@@ -1,0 +1,23 @@
+package classes;
+/* 접근제어자 
+ * -private:같은 클랴스 내부에서만 접근 가능
+ * -defauult(생략):같은 패키지내에서만 접근가능
+ * public"다른패키지에서도 젖ㅂ근가능
+ * 
+ */
+public class bankAccuntTest {
+
+	public static void main(String[] args) {
+		// 생성자 호출 -인스턴스 생성
+ bankAccount account1 = new bankAccount();
+ bankAccount account2 = new bankAccount();
+ 
+		account1.setAno("11-22-33");//값입력
+		account2.setowner("11-22-33");//값입력
+		
+		//출력
+		System.out.println("계좌번호 "+account1.getAno());
+		System.out.println("예금주 "+account2.getowner());
+	}
+
+}

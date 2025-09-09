@@ -20,15 +20,15 @@ public class bankaccountTest2 {
 		account1.setAno("11-22-334");
 	
 		account1.setOwner("김성진");
-		account1.setBalance("5555원");
+		account1.setBalance(5555);
 		account2.setAno("913-22-55");
 		account2.setOwner("제임스");
-		account2.setBalance("556655");
+		account2.setBalance(556655);
 		//은행계좌 인스턴스를 배열에 저장
 		accounts[0]=account1;
-		accounts[0]=account2;
+		accounts[1]=account2;
 		//계좌정보룰쳑
-		for(int i = 0; 1<accounts.length;i++) {
+		for(int i = 0; i<accounts.length;i++) {
 			System.out.println("계좌번호 "+accounts[i].getAno());
 			System.out.println("예금주 "+accounts[i].getOwner());
 			System.out.println("예금주 "+accounts[i].getBalance());

@@ -8,11 +8,11 @@ public class Subject {
 	public void setSubjectName(String subjectName) {
 		this.subjectName = subjectName;
 	}
-	public String getSubjectName() { return setSubjectName;}
+	public String getSubjectName() { return subjectName;}
 	
 	public void setScorePoint(int scorePoint) {
 		this.scorePoint = scorePoint;
 	}
-	public String getScorePoint() { return getScorePoint;}
+	public int getScorePoint() { return scorePoint;}
 	
 }

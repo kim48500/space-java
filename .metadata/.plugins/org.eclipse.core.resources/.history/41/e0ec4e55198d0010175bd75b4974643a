@@ -1,0 +1,51 @@
+package classes.scorer2;
+
+import classes.scorer.Subject;
+
+import 
+/* 
+ * 배열 자료구조 사용
+ * -과목 추가함수 
+ */
+
+public class student {
+	private int studentId;
+	private String studentName;
+	private Subject[] subject;
+
+	public Student( int studentId,String studentName) {
+		this.studentId = studentId;
+				this.studentName =studentName;
+				subject = new Subject[10];
+		
+	}
+	public void addSubject(String name, int score) {
+		
+		Subject Subject = new Subject();
+		subject.setSubjectName(name);
+		Subject.setScorePoint(score);
+		
+		for(int i = 0; i < subject.length; i++) {
+			if (subject[i] ==null)
+		}
+	}
+}
+public void showInfo() {
+	System.out.println{
+		"학번" + studentId+
+		" \n이름"+ studentName);
+		//과목 출력 
+		for(for(int i = 0; i < subject.length; i++) {
+			if(subjects[i] != null) {
+			System.out.println{
+				"학번" + studentId+
+				
+			
+				" \n이름"+ studentName);}
+		}
+			
+			
+		}
+		
+	}
+}

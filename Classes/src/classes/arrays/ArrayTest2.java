@@ -1,0 +1,37 @@
+package classes.arrays;
+
+public class ArrayTest2 {
+
+	public static void main(String[] args) {
+		//배열의 크기가 4인 정수형 배열 선언
+   int[] number =new int[4];
+		   //출력
+		   for(int i=0; i< number.length; i++) {
+			   System.out.println(number[i]);
+		   }
+		   //값 인력
+		   number[0] =10;
+		   number[1] =20;
+		   number[2] =30;
+		   number[3] =40;
+		   //출력
+		   for (int num : number)
+			   System.out.println(num);
+	
+             //계산
+	  // System.out.println(number[0] + number[1]); //30
+	  int total = 0;
+	  /*total = total + number[0];
+	  total = total + number[1];
+	  total = total + number[2];
+	  System.out.println(total); */
+	  for( int i=0; i<number.length; i++) {
+		  total += number[i];
+	  }
+	  System.out.println("합계"+total);
+	  //평균 합계 개수
+	  float average;
+	  average =(float)total / number.length;
+	  System.out.println("합계"+average);
+}
+}

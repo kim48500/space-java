@@ -1,0 +1,15 @@
+package classes.scorer;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// 학생 인스턴스 생성
+		Student woo = new Student(1001,"우영우")
+				//
+				woo.setKoreanSubjcet("국어",90);
+				woo.setmathSubjcet("국어",90);
+				//
+				woo.showInfo();
+	}
+
+}

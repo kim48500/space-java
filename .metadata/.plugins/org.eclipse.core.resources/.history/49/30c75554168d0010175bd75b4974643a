@@ -1,0 +1,14 @@
+package classes.arrays;
+
+public class ArrayTest {
+
+	public static void main(String[] args) {
+		//1.문자열 배열
+		String[] cars= new String[3];
+				
+				cars[0]="sonata"
+				
+
+	}
+
+}

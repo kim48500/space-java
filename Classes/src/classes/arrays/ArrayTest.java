@@ -1,0 +1,34 @@
+package classes.arrays;
+
+public class ArrayTest {
+
+	public static void main(String[] args) {
+		//1.문자열 배열
+		/*String[] cars= new String[3];
+				
+				
+				
+				/*for(int i =0; 1< cars.length; i++) {
+					System.out.println(cars[i]);
+				}
+				System.out.println("---------");
+				//자동차 모델명 입력
+				cars[0]="sonata";
+				cars[1]="sonata";
+				cars[2]="sonata";*/
+				//선언과 동시에 초기화
+				String[] cars = {"sonata","moring","ev"};
+				//소나타를 bmw로 수정
+				//순서대로 출력
+				cars[1]= "bmw";
+				for(int i =0; i< cars.length; i++) {
+					System.out.println(cars[i]);
+				}
+				System.out.println("---------");
+				//항상 폴문  폴
+				for(String car : cars)
+					System.out.println(car);
+				
+	}
+
+}

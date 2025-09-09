@@ -1,0 +1,12 @@
+package classes2;
+
+public class MyMathTest {
+
+	public static void main(String[] args) {
+// 메서드 사용 
+		 MyMath math = new MyMath();
+		 
+		 System.out.println(Math.abs(-6)); //6
+	}
+
+}

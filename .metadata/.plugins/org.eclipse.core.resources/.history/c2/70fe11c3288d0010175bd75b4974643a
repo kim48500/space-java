@@ -1,0 +1,16 @@
+package classes2.car;
+
+public class CarTest {
+
+	public static void main(String[] args) {
+//car 생성자 호춯
+		Car car1 = new Car();
+		Car car2 = new Car();
+		System.out.println("차량번호"+car1.getCarnumber());
+		System.out.println("차량번호"+car2.getCarnumber());
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,46 @@
+package classes2;
+/* java long 패키지는 임폴트 하지않음
+ * -math클래스는 수학 관련 메서드를 가지고있음
+ */
+public class MathTest {
+
+	public static void main(String[] args) {
+		//  math 클래스의 매서드 사용
+		//절대값의 계산
+		//static이 있는 메서드는 new 하지않고 클래스이름으로 접근
+		//절대값계산
+       int v1 =Math.abs(-4);
+       System.out.println(v1);
+       
+       //반올림 -round()
+     long v2 =Math.round(5.6);
+     System.out.println(v2);//6
+     //올림 - ceil()
+     double v3 =Math.ceil(4.1);
+     System.out.println(v3);//6
+     //버림 -floor (실수)
+     double v4 =Math.floor(5.9);
+     System.out.println(v4);//5
+   //두 수중에 작은수 min()
+   	 int minv =Math.min(10,20);
+        System.out.println(minv);//10
+        //무작위수 0.0 <=rand <1.0
+        double rand=Math.random();
+        System.out.println(rand);
+        //동전던지기 앞뒤
+       int coin=(int)(Math.random()*2);
+        System.out.println(coin);
+        
+        if(coin == 0)
+        	System.out.println("앞면");
+        else
+        	System.out.println("뒷면");
+	
+	//주사위누 1~6
+	int dice=(int)(Math.random()*6)+1;
+	System.out.println("뒷면");	
+	//문자열 추출
+	String[] country= {"한국","중국","일본"}
+	System.out.println(country[1]);
+	}
+}

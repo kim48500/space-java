@@ -5,7 +5,7 @@ package classes;
  * public"다른패키지에서도 젖ㅂ근가능
  * 
  */
-public class bankAccuntTest {
+/*public class bankAccuntTest {
 
 	public static void main(String[] args) {
 		// 생성자 호출 -인스턴스 생성
@@ -21,3 +21,4 @@ public class bankAccuntTest {
 	}
 
 }
+*/

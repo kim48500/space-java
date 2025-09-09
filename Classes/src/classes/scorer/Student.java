@@ -6,28 +6,31 @@ public class Student {
 	Subject korean;//국어
 	Subject math;//수학
 	//멤버 변수를 가진 생성ㅈ 
-	Student( int studentId,String studentName){
+	Student( int studentId, String studentName){
 		this.studentId = studentId;
-		this.studentName =studentName
+		this.studentName =studentName;
 			korean = new Subject();
-		math= new Subject()
+		math= new Subject();
 	}
  //국어 점수 설정 메서드
-	public void setKoeranSubject(String name,int score) {
+	public void setKoreanSubject(String name,int score) {
 		korean.setSubjectName(name);
-		korean.setscorePoint(score);
+		korean.setScorePoint(score);
 	}
 	//수학 점수 설정 메서드
 		public void setMathSubject(String name,int score) {
 			math.setSubjectName(name);
-			math.setscorePoint(score);
+			math.setScor"학번" + studentId+
+				" \n이름"+ studentNameePoint(score);
 		}
 		
 		//학생의 정보 출력
-		public void showInfo(}{
-			System.out.println{
-				"학번" + studentId;+
+		public void showInfo(){
+			System.out.println(
+				"학번" + studentId+
 				" \n이름"+ studentName +
-				"\n국어점수"+ korean.ge
-			}
+				"\n)국어점수"+ korean.getScorePoint()+
+				"\n)수학점수"+ math.getScorePoint());
+			
+		}
 }
